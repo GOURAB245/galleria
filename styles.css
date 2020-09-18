@@ -1,0 +1,148 @@
+/*------------------------------------------------------------INDEX-----------------------------------------------------------------------*/
+/*------------------------------------------------------------IN-TITLE--------------------------------------------------------------------*/
+
+#title{
+	background-color: #000;
+
+}
+
+.container-fluid{
+	padding:0% 15% 9%;
+}
+
+.galleria{
+	font-family:"MuseoModerno";
+	color:#fff;
+	text-align:center;
+}
+
+.paddingt{
+	padding-top: 7%;
+}
+
+.in-h1{
+	font-family: "Montserrat Alternates";
+	font-size: 3vw;
+	line-height:1.5;
+	color: #fff;
+	font-weight: bolder;
+}
+
+.iphone{
+	width:100%;
+	transform: rotate(0deg);
+	position:absolute;
+	left: 25%;
+
+}
+/*---------------------------------------------------------------IN-FEATURES---------------------------------------------------------------------*/
+#in-features{
+	padding:7% 15%;
+	position: relative;
+	z-index: 1;
+	background-color: #fff;
+}
+
+.in-feature{
+
+	font-family: "Montserrat Alternates";
+	text-align: center;
+
+}
+
+.in-h3{
+	color:#000;
+	font-weight: bold;
+	font-family:"Montserrat Alternates";
+}
+
+.icon{
+	padding-bottom: 10px;
+	color:#111D5E;
+}
+
+/*----------------------------------------------------------IN-PRESS-------------------------------------------------------------------*/
+ #press{
+ 	background-color:#ACDBDF;
+ 	text-align: center;
+ }
+
+.press-img{
+	width: 10%;
+	margin:20px 20px 50px;
+}
+
+/*-------------------------------------------------------------------IN-FOOTER-------------------------------------------------------------------*/
+
+#in-footer{
+	padding:1% 15% 1%;
+	text-align: center;
+}
+
+.icon2{
+	margin:20px 10px;
+}
+
+/*-------------------------------------------------MEDIA-------------------------------------------------------*/
+
+@media (max-width: 992px)
+{
+	#title{
+		text-align: center;
+	}
+
+	.iphone{
+		position: static;
+		transform: rotate(0deg);
+		margin:20px;
+	}
+
+}
+
+/*-----------------------------------------PRODUCT.ejs-----------------------------------------------------------*/
+
+#products{
+	padding: 4% 7% 4%;
+}
+
+.card_padding{
+	padding-top: 4%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 22vw;
+    object-fit: contain;
+		}
+
+/*----------------------------------------description-----------------------------------------------------------*/
+#submit{
+
+  padding: 0% 20%;
+	padding-top:10%;
+  padding-bottom: 5%;
+  background-color: #effffb;
+  font-family: "Comfortaa";
+
+
+
+}
+
+h2{
+  text-align: center;
+  font-weight: bolder;
+}
+
+.form-group{
+  padding-top: 2%
+}
+
+
+.align_h{
+  padding: 0% 10%;
+}
+
+.navbar-brand{
+  font-size: 2.2vw;
+  font-family: "MuseoModerno";
+}
